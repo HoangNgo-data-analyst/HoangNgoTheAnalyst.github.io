@@ -1,14 +1,61 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,700,300i,600i,700i|Raleway:600,800");
 
-/*
-	Paradigm Shift by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+/* ==================== SWEETALERT2 CUSTOM ==================== */
+.custom-swal-popup {
+	color: #e2e8f0 !important;
+	border-radius: 0.325rem !important; 
+	box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.3), 
+				0 8px 10px -6px rgb(0 0 0 / 0.3) !important;
+	padding: 28px 32px !important;
+	font-family: inherit;
+  }
+  
+  /* Tiêu đề */
+  .custom-swal-title {
+	color: #49fcd4 !important;
+	font-size: 1.55rem !important;
+	font-weight: 700 !important;
+	margin-bottom: 15px !important;
+  }
+  
+  /* Nội dung text */
+  .custom-swal-text {
+	color: black !important;
+	font-size: 1.02rem !important;
+	line-height: 1.5 !important;
+  }
+  
+  .swal2-html-container {
+	padding: 0;
+  }
 
-
-
+  /* Icon thành công */
+  .custom-swal-icon {
+	color: #49fcd4 !important;
+	border-color: #49fcd4 !important;
+  }
+  
+  /* Nút Confirm */
+  .custom-swal-confirm-btn {
+	background: #49fcd4 !important;
+	color: #0f172a !important;
+	font-size: 1.02rem !important;
+	border-radius: 0.325rem !important;
+	transition: all 0.3s ease !important;
+	margin-top: 10px !important;
+	border: none !important;
+	box-shadow: none;
+  }
+  
+  .custom-swal-confirm-btn:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 10px 15px -3px rgba(73, 252, 212, 0.4) !important;
+	border-radius: 0.325rem !important;
+	color: white !important;
+	border: none !important;
+  }
+  
 
 
 html, body, div, span, applet, object,
@@ -204,6 +251,10 @@ input, select, textarea {
 		margin: 0 0 2rem 0;
 	}
 
+	.content_title {
+		margin: 0 0 0.5rem 0;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		color: #000000;
 		font-family: "Raleway", Helvetica, sans-serif;
@@ -234,6 +285,8 @@ input, select, textarea {
 		font-weight: 800;
 		margin: 0 0 2rem 0;
 	}
+
+
 
 	h3 {
 		font-size: 0.875rem;
